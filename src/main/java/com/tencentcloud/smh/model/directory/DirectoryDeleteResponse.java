@@ -1,0 +1,38 @@
+/*
+ * Copyright (c) 2017-2018 THL A29 Limited, a Tencent company. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.tencentcloud.smh.model.directory;
+
+import com.tencentcloud.smh.model.CommonResponse;
+
+import java.io.Serializable;
+
+public class DirectoryDeleteResponse extends CommonResponse implements Serializable {
+    /**
+     * 回收站项目 ID，用于从回收站永久删除或恢复指定项目；
+     */
+    private int recycledItemId;
+
+    public int getRecycledItemId() {
+        return recycledItemId;
+    }
+
+    public void setRecycledItemId(int recycledItemId) {
+        this.recycledItemId = recycledItemId;
+    }
+
+
+}
