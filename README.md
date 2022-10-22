@@ -14,8 +14,7 @@
 
 smh-sdk-java 适用于SHM JSON API https://cloud.tencent.com/document/product/1339/49943
 
-示例程序 demo 请参照 https://github.com/TencentCloud/tencentcloud-smh-sdk-java/blob/master/src/main/java/com.tencentcloud.smh/demo
-下的示例代码
+示例程序 demo 请参照https://github.com/TencentCloud/tencentcloud-smh-sdk-java/tree/main/src/main/java/com/tencentcloud/smh/demo下的示例代码
 
 ## 常见问题:
 请参考https://cloud.tencent.com/document/product/1339/49930
